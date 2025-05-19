@@ -1,0 +1,10 @@
+name: test-action
+author: shirakiya
+description: My custom action for test.
+inputs:
+runs:
+  using: 'composite'
+  steps:
+      - name: echo
+        run: echo "Hello world!"
+        shell: bash
