@@ -1,7 +1,6 @@
 name: test-action
 author: shirakiya
 description: My custom action for test.
-inputs:
 runs:
   using: 'composite'
   steps:
