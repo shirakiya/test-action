@@ -5,5 +5,5 @@ runs:
   using: 'composite'
   steps:
       - name: echo
-        run: echo "Hello world!"
+        run: echo "Hello world! tag changed"
         shell: bash
