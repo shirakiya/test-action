@@ -1,0 +1,10 @@
+name: Use
+
+on: push
+
+jobs:
+  action-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shirakiya/shirakiya-test-action@ab9358a
