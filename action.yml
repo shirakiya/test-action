@@ -5,5 +5,5 @@ runs:
   using: 'composite'
   steps:
       - name: echo
-        run: echo "Hello world! This is tag"
+        run: echo "Hello world! This is branch"
         shell: bash
