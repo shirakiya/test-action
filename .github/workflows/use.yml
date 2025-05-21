@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: shirakiya/test-action@v1
+      - uses: shirakiya/test-action@ab9358a197fbb54906cb9db535fd09f6491de4f9
