@@ -1,9 +1,9 @@
-name: test-action
+name: shirakiya-test-action
 author: shirakiya
 description: My custom action for test.
 runs:
   using: 'composite'
   steps:
       - name: echo
-        run: echo "Hello world! tag changed"
+        run: echo "Hello world!"
         shell: bash
